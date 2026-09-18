@@ -1,0 +1,77 @@
+// Base de conteúdos da biblioteca (Nota 2: agora filtrável e pesquisável via JS/DOM)
+const conteudos = [
+  {
+    id: 1,
+    titulo: "Frações e números decimais",
+    disciplina: "Matemática",
+    serie: "6º ao 9º ano",
+    descricao: "Guia de apoio com exercícios resolvidos sobre operações com frações.",
+    cor: "#4C6FFF",
+  },
+  {
+    id: 2,
+    titulo: "Interpretação de texto",
+    disciplina: "Português",
+    serie: "6º ao 9º ano",
+    descricao: "Estratégias de leitura e atividades práticas de interpretação textual.",
+    cor: "#F4A300",
+  },
+  {
+    id: 3,
+    titulo: "Sistema solar e planetas",
+    disciplina: "Ciências",
+    serie: "7º e 8º ano",
+    descricao: "Resumo ilustrado sobre os planetas e curiosidades do sistema solar.",
+    cor: "#2E7D32",
+  },
+  {
+    id: 4,
+    titulo: "Brasil colonial: resumo",
+    disciplina: "História",
+    serie: "Ensino Médio",
+    descricao: "Linha do tempo e pontos-chave sobre o período colonial brasileiro.",
+    cor: "#8E44AD",
+  },
+  {
+    id: 5,
+    titulo: "Relevo e clima do Maranhão",
+    disciplina: "Geografia",
+    serie: "6º ao 9º ano",
+    descricao: "Material regional sobre geografia física do estado do Maranhão.",
+    cor: "#16A085",
+  },
+  {
+    id: 6,
+    titulo: "Vocabulário do dia a dia",
+    disciplina: "Inglês",
+    serie: "Ensino Médio",
+    descricao: "Lista de vocabulário essencial em inglês com exemplos de uso.",
+    cor: "#C0392B",
+  },
+  {
+    id: 7,
+    titulo: "Equações do 1º grau",
+    disciplina: "Matemática",
+    serie: "7º e 8º ano",
+    descricao: "Passo a passo para resolver equações simples com uma incógnita.",
+    cor: "#4C6FFF",
+  },
+  {
+    id: 8,
+    titulo: "Produção de texto narrativo",
+    disciplina: "Português",
+    serie: "6º ao 9º ano",
+    descricao: "Dicas e roteiro para estruturar uma boa narrativa escolar.",
+    cor: "#F4A300",
+  },
+  {
+    id: 9,
+    titulo: "Ciclo da água",
+    disciplina: "Ciências",
+    serie: "6º ao 9º ano",
+    descricao: "Explicação ilustrada das etapas do ciclo da água na natureza.",
+    cor: "#2E7D32",
+  },
+];
+
+export default conteudos;
